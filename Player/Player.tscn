@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://xw2in3862wt5"]
+
+[ext_resource type="Script" path="res://Player/Player.gd" id="1_hbyku"]
+[ext_resource type="PackedScene" uid="uid://dlqun7gljkoow" path="res://Player/NerdCharakter.aseprite" id="2_xih1g"]
+[ext_resource type="PackedScene" uid="uid://bdq01cp50dumd" path="res://Player/weapon/weapon.tscn" id="3_6aky8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8jk0v"]
+radius = 5.0
+
+[node name="Player" type="CharacterBody2D"]
+texture_filter = 1
+scale = Vector2(1.6, 1.6)
+motion_mode = 1
+script = ExtResource("1_hbyku")
+
+[node name="PlayerView" type="Camera2D" parent="."]
+unique_name_in_owner = true
+
+[node name="NerdCharakter" parent="." instance=ExtResource("2_xih1g")]
+texture_filter = 1
+position = Vector2(0, -3)
+frame_progress = 0.0651415
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_8jk0v")
+
+[node name="Keyboard" parent="." instance=ExtResource("3_6aky8")]
+position = Vector2(1, 0)
+scale = Vector2(8, 8)
+
+[node name="RoundGlock" type="Label" parent="."]
+offset_left = -7.5
+offset_top = -205.625
+offset_right = 31.5
+offset_bottom = -154.625
+size_flags_vertical = 0
+
+[node name="RoundTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+autostart = true

@@ -1,0 +1,9 @@
+res://Main Scene/main.tscn
+res://Player/PlayerHealthBar/PlayerHealthBar.gd
+res://Player/Player.tscn
+res://Enemy/Ladybug/Ladybug.tscn
+res://UI/Money/DisplayCoin.tscn
+res://Enemy/Ladybug/Ladybug.gd
+res://Shop/Shop.tscn
+res://Main Scene/main.gd
+res://Shop/Shop.gd

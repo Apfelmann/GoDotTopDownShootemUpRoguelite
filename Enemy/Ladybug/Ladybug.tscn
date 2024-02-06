@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://d4l8tvs1vs6fl"]
+
+[ext_resource type="Script" path="res://Enemy/Ladybug/Ladybug.gd" id="1_kbr3l"]
+[ext_resource type="PackedScene" uid="uid://bb7eers6ee411" path="res://Enemy/Ladybug/Ladybug.aseprite" id="1_kemij"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3h7fn"]
+radius = 5.65685
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_krmb5"]
+radius = 6.0
+
+[node name="Ladybug" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_kbr3l")
+
+[node name="Ladybug_animation" parent="." instance=ExtResource("1_kemij")]
+texture_filter = 1
+frame_progress = 0.0262537
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+rotation = 0.555502
+shape = SubResource("CircleShape2D_3h7fn")
+
+[node name="HurtBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_krmb5")
+
+[connection signal="body_entered" from="HurtBox" to="." method="_on_hurt_box_body_entered"]

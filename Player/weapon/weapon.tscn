@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdq01cp50dumd"]
+
+[ext_resource type="Script" path="res://Player/weapon/Keyboard.gd" id="1_21we8"]
+[ext_resource type="PackedScene" uid="uid://db7eg1vynl0xl" path="res://Player/weapon/Keyboard.aseprite" id="1_vuoqr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kt8n3"]
+radius = 27.0
+
+[node name="Keyboard" type="Area2D"]
+script = ExtResource("1_21we8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("CircleShape2D_kt8n3")
+
+[node name="Pivot" type="Marker2D" parent="."]
+
+[node name="Keyboard" parent="Pivot" instance=ExtResource("1_vuoqr")]
+texture_filter = 1
+position = Vector2(1, 4.65672e-10)
+rotation = 1.5777
+scale = Vector2(0.2, 0.2)
+animation = &"RGBRotation"
+frame_progress = 0.861216
+
+[node name="ShootingPoint" type="Marker2D" parent="Pivot/Keyboard"]
+position = Vector2(-0.005022, -0.533321)
+
+[node name="Timer" type="Timer" parent="Pivot/Keyboard"]
+wait_time = 0.5
+autostart = true
+
+[connection signal="timeout" from="Pivot/Keyboard/Timer" to="." method="_on_timer_timeout"]

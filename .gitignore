@@ -1,0 +1,50 @@
+# Allgemeine
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.temp
+
+# Godot-spezifisch
+# Import-Dateien (werden automatisch generiert)
+.import/
+# Exportierte Projekte
+exports/
+# Temporäre Dateien für Mono-Builds
+.mono/
+# Godot-Editor-Einstellungen und -Cache
+*.autosave
+editor_settings-*.tres
+project_metadata.cfg
+
+# OS-spezifische Exportvorlagen und -verzeichnisse
+export_presets.cfg
+export.cfg
+
+# Benutzerspezifische Dateien
+*.user
+*.import
+
+# Dateien, die von Godot-Versionierungs-Systemen verwendet werden
+res://.godot/assetlibrary-metadata.text
+res://.import/
+res://addons/*/config/*.cfg
+res://addons/*/config/*.tres
+
+# Mono-spezifisch (wenn du C# verwendest)
+# Binär- und Objektdateien
+*.mono.temp/
+*.mono.pe/
+bin/
+obj/
+# Mono-Entwicklungsdateien
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.userprefs
+
+# Excludiere spezifische Dateien oder Verzeichnisse nach Bedarf
+# z.B. persönliche Arbeitsdateien oder spezifische Konfigurationsdateien
+# /meine_persoenlichen_skripte/

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj3apgmq8r1om"]
+
+[ext_resource type="Script" path="res://Player/PlayerHealthBar/PlayerHealthBar.gd" id="1_4o0du"]
+
+[node name="PlayerHealthBar" type="Node2D"]
+script = ExtResource("1_4o0du")

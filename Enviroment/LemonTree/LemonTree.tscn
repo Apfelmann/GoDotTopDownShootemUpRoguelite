@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://di67t1njahe2h"]
+
+[ext_resource type="Texture2D" uid="uid://epbkwusvf8a3" path="res://Enviroment/LemonTree/LemonTree.aseprite" id="1_bxmsp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g1fql"]
+radius = 5.0
+
+[node name="LemonTree" type="StaticBody2D"]
+
+[node name="LemonTree" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(3, -40)
+scale = Vector2(5, 5)
+texture = ExtResource("1_bxmsp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, -4)
+shape = SubResource("CircleShape2D_g1fql")

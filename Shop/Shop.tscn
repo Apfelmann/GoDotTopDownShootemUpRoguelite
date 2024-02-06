@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://cptc23qosnlxw"]
+
+[ext_resource type="Texture2D" uid="uid://cqcgfhdb5fr2c" path="res://Shop/Shop.aseprite" id="1_86psk"]
+[ext_resource type="Script" path="res://Shop/Shop.gd" id="1_jkc77"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_40oiw"]
+radius = 37.0135
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_tthhp"]
+texture_filter = 1
+
+[node name="Shop" type="StaticBody2D"]
+script = ExtResource("1_jkc77")
+
+[node name="Shop" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-3, 5)
+texture = ExtResource("1_86psk")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-19, 20, -19, 6, -19, 3, 19, 3, 20, 14, 12, 21)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_40oiw")
+
+[node name="ShopOverlay" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+visible = false
+
+[node name="Control" type="Control" parent="ShopOverlay"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ShopBackground" type="TextureRect" parent="ShopOverlay/Control"]
+modulate = Color(0.368627, 0.368627, 0.368627, 0.835294)
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 200.0
+offset_top = 70.0
+offset_right = -200.0
+offset_bottom = -70.0
+texture = SubResource("CanvasTexture_tthhp")
+
+[node name="Button" type="Button" parent="ShopOverlay/Control/ShopBackground"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 47.0
+offset_right = 110.0
+offset_bottom = 79.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

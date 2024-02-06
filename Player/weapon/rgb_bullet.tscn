@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://co6j2wb7oxvrp"]
+
+[ext_resource type="Script" path="res://RGBBullet.gd" id="1_wgekp"]
+[ext_resource type="PackedScene" uid="uid://co1u12rujaenl" path="res://Player/weapon/RGBBullet.aseprite" id="2_6mbxj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nq43o"]
+size = Vector2(1, 1)
+
+[node name="RGBBullet" type="Area2D"]
+top_level = true
+scale = Vector2(7, 7)
+script = ExtResource("1_wgekp")
+
+[node name="DamageBox" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_nq43o")
+
+[node name="RGBBullet" parent="." instance=ExtResource("2_6mbxj")]
+texture_filter = 1
+scale = Vector2(0.8, 0.8)
+frame = 7
+frame_progress = 0.720223
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
