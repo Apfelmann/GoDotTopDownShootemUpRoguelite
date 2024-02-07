@@ -38,6 +38,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="ShopBackground" type="TextureRect" parent="ShopOverlay/Control"]
+unique_name_in_owner = true
 modulate = Color(0.368627, 0.368627, 0.368627, 0.835294)
 layout_mode = 1
 anchors_preset = -1
