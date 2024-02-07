@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://xw2in3862wt5"]
+
+[ext_resource type="Script" path="res://Player/Player.gd" id="1_hbyku"]
+[ext_resource type="PackedScene" uid="uid://dlqun7gljkoow" path="res://Player/NerdCharakter.aseprite" id="2_xih1g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oljve"]
+size = Vector2(7, 14)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_hbyku")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -4)
+shape = SubResource("RectangleShape2D_oljve")
+
+[node name="NerdCharakter" parent="." instance=ExtResource("2_xih1g")]
+texture_filter = 1
+position = Vector2(0, -3)
+animation = &"SO"

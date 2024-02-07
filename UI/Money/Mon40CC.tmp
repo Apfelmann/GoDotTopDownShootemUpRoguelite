@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsxilq8qa0jhn"]
+
+[ext_resource type="Script" path="res://UI/Money/Money.gd" id="1_6yenk"]
+[ext_resource type="PackedScene" uid="uid://6xt87te3rkri" path="res://UI/Money/Coin.aseprite" id="2_vcahy"]
+
+[node name="Money" type="Node2D"]
+script = ExtResource("1_6yenk")
+
+[node name="Coin" parent="." instance=ExtResource("2_vcahy")]
+texture_filter = 1
+position = Vector2(31, 9)
+frame_progress = 0.690674
+
+[node name="Label" type="Label" parent="."]
+texture_filter = 1
+offset_left = 15.0
+offset_top = -3.0
+offset_right = 55.0
+offset_bottom = 21.0
