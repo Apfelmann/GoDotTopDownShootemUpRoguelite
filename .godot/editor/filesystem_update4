@@ -1,6 +1,3 @@
-res://Player/PlayerHealthBar/PlayerHealthBar.gd
-res://Main Scene/main.tscn
-res://Shop/ShopItem/ShopItem.gd
-res://Player/Player.tscn
-res://Shop/Shop.tscn
 res://Shop/ShopItem/ShopItem.tscn
+res://Player/PlayerHealthBar/PlayerHealthBar.gd
+res://Shop/ShopItem/ShopItem.gd
