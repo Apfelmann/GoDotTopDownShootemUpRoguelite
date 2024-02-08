@@ -1,2 +1,4 @@
 res://Shop/Shop.tscn
 res://Player/PlayerHealthBar/PlayerHealthBar.gd
+res://Shop/Shop.gd
+res://Shop/ShopBackground.gd

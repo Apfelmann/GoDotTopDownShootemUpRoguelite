@@ -22,6 +22,7 @@ func createAllShopIcons():
 			var length = asset.length()-4
 			for letter in asset:
 				if(length>0):
+					print("")
 					name =name+letter
 				length-=1
 			var shopItemToBuy:Button = Button.new()
