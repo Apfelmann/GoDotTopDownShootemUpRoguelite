@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dm21y2ivp7lv6"
-path="res://.godot/imported/AtkSpeed.jpg-861e60bb18a7c235e18ff548b87c6068.ctex"
+uid="uid://cp608ox6ob5yf"
+path="res://.godot/imported/Bounce.jpg-6266403f3c88db1b2a2ef38bce385e3c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shop/ShopItem/assets/AtkSpeed.jpg"
-dest_files=["res://.godot/imported/AtkSpeed.jpg-861e60bb18a7c235e18ff548b87c6068.ctex"]
+source_file="res://Shop/ShopItem/assets/Bounce.jpg"
+dest_files=["res://.godot/imported/Bounce.jpg-6266403f3c88db1b2a2ef38bce385e3c.ctex"]
 
 [params]
 

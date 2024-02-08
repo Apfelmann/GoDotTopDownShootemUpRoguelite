@@ -1,6 +1,7 @@
 Button
-CanvasLayer
+TextureButton
 TextureRect
+CanvasLayer
 Control
 CanvasModulate
 CollisionShape2D
@@ -11,4 +12,3 @@ Timer
 Label
 Camera2D
 ColorRect
-PathFollow2D

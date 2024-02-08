@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dm21y2ivp7lv6"
-path="res://.godot/imported/AtkSpeed.jpg-861e60bb18a7c235e18ff548b87c6068.ctex"
+uid="uid://c2jtlp15t5chm"
+path="res://.godot/imported/purse.jpg-18657a4340118d405da6d75a678a7f80.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shop/ShopItem/assets/AtkSpeed.jpg"
-dest_files=["res://.godot/imported/AtkSpeed.jpg-861e60bb18a7c235e18ff548b87c6068.ctex"]
+source_file="res://Shop/ShopItem/assets/purse.jpg"
+dest_files=["res://.godot/imported/purse.jpg-18657a4340118d405da6d75a678a7f80.ctex"]
 
 [params]
 

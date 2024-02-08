@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dm21y2ivp7lv6"
-path="res://.godot/imported/AtkSpeed.jpg-861e60bb18a7c235e18ff548b87c6068.ctex"
+uid="uid://c2tv1lmmadlbv"
+path="res://.godot/imported/MovmentSpeed.jpg-ffd0a37f04b39222cf1a7dc3ae72e388.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shop/ShopItem/assets/AtkSpeed.jpg"
-dest_files=["res://.godot/imported/AtkSpeed.jpg-861e60bb18a7c235e18ff548b87c6068.ctex"]
+source_file="res://Shop/ShopItem/assets/MovmentSpeed.jpg"
+dest_files=["res://.godot/imported/MovmentSpeed.jpg-ffd0a37f04b39222cf1a7dc3ae72e388.ctex"]
 
 [params]
 

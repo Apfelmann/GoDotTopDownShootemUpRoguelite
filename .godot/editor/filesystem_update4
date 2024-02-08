@@ -1,5 +1,2 @@
-res://Shop/ShopItem/ShopItem.tscn
-res://Player/PlayerHealthBar/PlayerHealthBar.gd
-res://Shop/ShopItem/ShopItem.gd
 res://Shop/Shop.tscn
-res://Shop/Shop.gd
+res://Player/PlayerHealthBar/PlayerHealthBar.gd
