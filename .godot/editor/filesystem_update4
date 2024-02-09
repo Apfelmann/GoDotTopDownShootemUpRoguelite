@@ -1,4 +1,11 @@
 res://Shop/Shop.tscn
 res://Player/PlayerHealthBar/PlayerHealthBar.gd
-res://Shop/Shop.gd
 res://Shop/ShopBackground.gd
+res://Player/Player.tscn
+res://Player/weapon/Keyboard.gd
+res://Shop/Shop.gd
+res://Player/weapon/rgb_bullet.tscn
+res://Player/weapon/RGBBullet.gd
+res://Enemy/Ladybug/Ladybug.gd
+res://Player/RoundTimer.gd
+res://Main Scene/main.tscn

@@ -20,6 +20,7 @@ func _physics_process(delta):
 	move_and_slide()
 	
 func take_damage_enemy(dmg):
+	print(dmg)
 	health -= dmg
 	if health <=0:
 		onDeath.emit(1)

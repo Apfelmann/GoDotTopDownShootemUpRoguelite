@@ -1,10 +1,7 @@
 extends Area2D
-var dmg
+@onready var attkdmg
 var travelled_distance = 0
 var RGBBulletAnimation : AnimatedSprite2D
-
-func _init():
-	dmg = 1
 
 func _ready():
 	RGBBulletAnimation = $RGBBullet
@@ -23,11 +20,12 @@ func _physics_process(delta):
 	if travelled_distance>RANGE:
 		queue_free()
 
+
 func _on_body_entered(body):
 	if body.name =="Player":
 		return
 		
 	if body.has_method("take_damage_enemy"):
-		body.take_damage_enemy(dmg)
+		body.take_damage_enemy(attkdmg)
 		queue_free()
 

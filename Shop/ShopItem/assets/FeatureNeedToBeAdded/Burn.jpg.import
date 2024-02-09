@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cp608ox6ob5yf"
-path="res://.godot/imported/Bounce.jpg-6266403f3c88db1b2a2ef38bce385e3c.ctex"
+uid="uid://b5gafky7wrgof"
+path="res://.godot/imported/Burn.jpg-5a5433cfd0feb53c5f963086986f050f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shop/ShopItem/assets/Bounce.jpg"
-dest_files=["res://.godot/imported/Bounce.jpg-6266403f3c88db1b2a2ef38bce385e3c.ctex"]
+source_file="res://Shop/ShopItem/assets/FeatureNeedToBeAdded/Burn.jpg"
+dest_files=["res://.godot/imported/Burn.jpg-5a5433cfd0feb53c5f963086986f050f.ctex"]
 
 [params]
 

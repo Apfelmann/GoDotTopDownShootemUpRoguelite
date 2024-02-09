@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c2jtlp15t5chm"
-path="res://.godot/imported/purse.jpg-18657a4340118d405da6d75a678a7f80.ctex"
+uid="uid://cp608ox6ob5yf"
+path="res://.godot/imported/Bounce.jpg-bdb68ce0da8af43b36742287dcb388f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shop/ShopItem/assets/purse.jpg"
-dest_files=["res://.godot/imported/purse.jpg-18657a4340118d405da6d75a678a7f80.ctex"]
+source_file="res://Shop/ShopItem/assets/FeatureNeedToBeAdded/Bounce.jpg"
+dest_files=["res://.godot/imported/Bounce.jpg-bdb68ce0da8af43b36742287dcb388f0.ctex"]
 
 [params]
 

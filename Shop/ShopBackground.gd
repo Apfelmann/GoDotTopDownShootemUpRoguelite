@@ -22,7 +22,6 @@ func createAllShopIcons():
 			var length = asset.length()-4
 			for letter in asset:
 				if(length>0):
-					print("")
 					name =name+letter
 				length-=1
 			var shopItemToBuy:Button = Button.new()
@@ -35,7 +34,15 @@ func createAllShopIcons():
 				shopItemToBuy.position = Vector2(100,50+nextPosition)
 				nextPosition+=74
 			shopItemToBuy.text=name
-			
 			shopItemToBuy.icon = load('res://Shop/ShopItem/assets/'+asset)
 			nextRow+=1
+			shopItemToBuy.set_meta("type",name)
+			shopItemToBuy.add_user_signal("shopItemSold",[name])
+			shopItemToBuy.connect("pressed", func():
+				_on_ShopItemButton_pressed(shopItemToBuy))
 			add_child(shopItemToBuy)
+func _on_ShopItemButton_pressed(button:Button):
+	var name = button.get_meta("type")
+	button.emit_signal("shopItemSold",name)
+	%ShopOverlay.queue_free() 
+	

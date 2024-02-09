@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cevi8dwt0xhy"
-path="res://.godot/imported/Hearth.jpg-6c2b8d5ba2843615f4b67eea983c0b64.ctex"
+uid="uid://b1186hcmolhf1"
+path="res://.godot/imported/DashCount.jpg-5df4c9aa3cd412f43719c888fa611fe8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shop/ShopItem/assets/Hearth.jpg"
-dest_files=["res://.godot/imported/Hearth.jpg-6c2b8d5ba2843615f4b67eea983c0b64.ctex"]
+source_file="res://Shop/ShopItem/assets/FeatureNeedToBeAdded/DashCount.jpg"
+dest_files=["res://.godot/imported/DashCount.jpg-5df4c9aa3cd412f43719c888fa611fe8.ctex"]
 
 [params]
 

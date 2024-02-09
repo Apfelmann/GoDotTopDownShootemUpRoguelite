@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://h65pwlpq6ikw"
-path="res://.godot/imported/ProjectilCount.jpg-7da9d18db2f1422ecf537ad568d37883.ctex"
+uid="uid://b2jjdwx3jwcjo"
+path="res://.godot/imported/MovementSpeed.jpg-3c7e7e4e4d96cf3053d951c8d61aaff0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shop/ShopItem/assets/ProjectilCount.jpg"
-dest_files=["res://.godot/imported/ProjectilCount.jpg-7da9d18db2f1422ecf537ad568d37883.ctex"]
+source_file="res://Shop/ShopItem/assets/FeatureNeedToBeAdded/MovementSpeed.jpg"
+dest_files=["res://.godot/imported/MovementSpeed.jpg-3c7e7e4e4d96cf3053d951c8d61aaff0.ctex"]
 
 [params]
 

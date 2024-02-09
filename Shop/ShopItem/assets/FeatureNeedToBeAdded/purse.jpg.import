@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5gafky7wrgof"
-path="res://.godot/imported/Burn.jpg-76af7a9064f031ca8161d9fce21aa2b8.ctex"
+uid="uid://c2jtlp15t5chm"
+path="res://.godot/imported/purse.jpg-d558c278c85db612171cdd6555896134.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Shop/ShopItem/assets/Burn.jpg"
-dest_files=["res://.godot/imported/Burn.jpg-76af7a9064f031ca8161d9fce21aa2b8.ctex"]
+source_file="res://Shop/ShopItem/assets/FeatureNeedToBeAdded/purse.jpg"
+dest_files=["res://.godot/imported/purse.jpg-d558c278c85db612171cdd6555896134.ctex"]
 
 [params]
 
