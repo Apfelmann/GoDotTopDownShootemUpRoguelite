@@ -1,5 +1,5 @@
 cffcf7cc5eb03ca20a5c49cce30ef619
-::res://::1707511161
+::res://::1707592041
 README.md::TextFile::-1::1707230833::0::1::::<><>::
 ::res://addons/::1707230833
 ::res://addons/nklbdev.aseprite_importers/::1707230833
@@ -18,9 +18,9 @@ texture_rect.gd::GDScript::-1::1707230833::0::1::::<><>::
 _animation_importer_base.gd::GDScript::-1::1707230833::0::1::::<><>::
 _importer_base.gd::GDScript::-1::1707230833::0::1::::<>EditorImportPlugin<>::
 ::res://Enemy/::1706215956
-::res://Enemy/Ladybug/::1707162530
+::res://Enemy/Ladybug/::1707511388
 Ladybug.aseprite::PackedScene::2522920548725198786::1706215979::1706215994::1::::<><>::uid://j2dji5ykan25::::res://Enemy/Ladybug/Ladybug.png
-Ladybug.gd::GDScript::-1::1707162401::0::1::::<>CharacterBody2D<>::
+Ladybug.gd::GDScript::-1::1707511388::0::1::::<>CharacterBody2D<>::
 Ladybug.png::CompressedTexture2D::687636482860112008::1706215994::1706215994::1::::<><>::
 Ladybug.tscn::PackedScene::9219485394729346257::1707162530::0::1::::<><>::res://Enemy/Ladybug/Ladybug.gd<>uid://bb7eers6ee411::::res://Enemy/Ladybug/Ladybug.aseprite
 ::res://Enviroment/::1706561069
@@ -29,33 +29,33 @@ LemonTree.aseprite::CompressedTexture2D::311800803050768472::1706122807::1706122
 LemonTree.tscn::PackedScene::7786746770510895813::1706558649::0::1::::<><>::uid://epbkwusvf8a3::::res://Enviroment/LemonTree/LemonTree.aseprite
 ::res://Enviroment/Map/::1706561069
 Terrain.aseprite::CompressedTexture2D::5163490920057595067::1706561068::1706561069::1::::<><>::
-::res://Main Scene/::1707278819
+::res://Main Scene/::1707512247
 main.gd::GDScript::-1::1707162911::0::1::::<>Node2D<>::
-main.tscn::PackedScene::8646756604483578708::1707278819::0::1::::<><>::res://Main Scene/main.gd<>uid://xw2in3862wt5::::res://Player/Player.tscn<>uid://cfth684lr71it::::res://Enviroment/Map/Terrain.aseprite<>uid://di67t1njahe2h::::res://Enviroment/LemonTree/LemonTree.tscn
-::res://Player/::1707509480
+main.tscn::PackedScene::8646756604483578708::1707512247::0::1::::<><>::res://Main Scene/main.gd<>uid://xw2in3862wt5::::res://Player/Player.tscn<>uid://cfth684lr71it::::res://Enviroment/Map/Terrain.aseprite<>uid://di67t1njahe2h::::res://Enviroment/LemonTree/LemonTree.tscn
+::res://Player/::1707512254
 NerdCharakter.aseprite::PackedScene::7965608620866966250::1705868081::1705868260::1::::<><>::uid://wuw7j63pgint::::res://Player/NerdCharakter.png
 NerdCharakter.png::CompressedTexture2D::1586835556255297485::1705868260::1705868229::1::::<><>::
 Player.gd::GDScript::-1::1707075895::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::1661414087019951844::1707509480::0::1::::<><>::res://Player/Player.gd<>uid://dlqun7gljkoow::::res://Player/NerdCharakter.aseprite<>uid://bdq01cp50dumd::::res://Player/weapon/weapon.tscn
-RoundTimer.gd::GDScript::-1::1707074569::0::1::::<>RefCounted<>::
+Player.tscn::PackedScene::1661414087019951844::1707512254::0::1::::<><>::res://Player/Player.gd<>uid://dlqun7gljkoow::::res://Player/NerdCharakter.aseprite<>uid://bdq01cp50dumd::::res://Player/weapon/weapon.tscn
+RoundTimer.gd::GDScript::-1::1707512224::0::1::::<>RefCounted<>::
 ::res://Player/PlayerHealthBar/::1707505870
 Hearth.aseprite::CompressedTexture2D::685876733202901814::1706292033::1706292034::1::::<><>::
 PlayerHealthBar.gd::GDScript::-1::1707505870::0::1::::PlayerHealthBar<>Node2D<>::
 PlayerHealthBar.tscn::PackedScene::3075949974907158120::1706555154::0::1::::<><>::res://Player/PlayerHealthBar/PlayerHealthBar.gd
-::res://Player/weapon/::1707511076
+::res://Player/weapon/::1707512247
 Keyboard.aseprite::PackedScene::7295765964738024677::1706466365::1706466427::1::::<><>::uid://mj2xnc1l84cc::::res://Player/weapon/Keyboard.png
-Keyboard.gd::GDScript::-1::1707511076::0::1::::<>Area2D<>::
+Keyboard.gd::GDScript::-1::1707511870::0::1::::<>Area2D<>::
 Keyboard.png::CompressedTexture2D::862526642597945778::1706466427::1706466427::1::::<><>::
 RGBBullet.aseprite::PackedScene::5810421215733935781::1706467951::1706467961::1::::<><>::
-RGBBullet.gd::GDScript::-1::1706472836::0::1::::<>Area2D<>::
+RGBBullet.gd::GDScript::-1::1707511905::0::1::::<>Area2D<>::
 RGBBullet.png::CompressedTexture2D::7011358620960118997::1706467961::1706467961::1::::<><>::
-rgb_bullet.tscn::PackedScene::5820076716596917629::1707278812::0::1::::<><>::res://Player/weapon/RGBBullet.gd<>uid://co1u12rujaenl::::res://Player/weapon/RGBBullet.aseprite
+rgb_bullet.tscn::PackedScene::5820076716596917629::1707512247::0::1::::<><>::res://Player/weapon/RGBBullet.gd<>uid://co1u12rujaenl::::res://Player/weapon/RGBBullet.aseprite
 weapon.tscn::PackedScene::2631581743748222611::1706555164::0::1::::<><>::res://Player/weapon/Keyboard.gd<>uid://db7eg1vynl0xl::::res://Player/weapon/Keyboard.aseprite
-::res://Shop/::1707511077
+::res://Shop/::1707512247
 Shop.aseprite::CompressedTexture2D::5900365224412569924::1707162560::1707162581::1::::<><>::
-Shop.gd::GDScript::-1::1707511041::0::1::::<>StaticBody2D<>::
-Shop.tscn::PackedScene::5865068345736137880::1707511077::0::1::::<><>::uid://cqcgfhdb5fr2c::::res://Shop/Shop.aseprite<>res://Shop/Shop.gd<>res://Shop/ShopBackground.gd
-ShopBackground.gd::GDScript::-1::1707510108::0::1::::<>TextureRect<>::
+Shop.gd::GDScript::-1::1707512224::0::1::::<>StaticBody2D<>::
+Shop.tscn::PackedScene::5865068345736137880::1707512247::0::1::::<><>::uid://cqcgfhdb5fr2c::::res://Shop/Shop.aseprite<>res://Shop/Shop.gd<>res://Shop/ShopBackground.gd
+ShopBackground.gd::GDScript::-1::1707512077::0::1::::<>TextureRect<>::
 ::res://Shop/ShopItem/::1707421690
 ::res://Shop/ShopItem/assets/::1707511161
 AtkDmg.jpg::CompressedTexture2D::8932438401078974955::1707423249::1707423366::1::::<><>::

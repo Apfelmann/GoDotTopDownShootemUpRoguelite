@@ -8,10 +8,13 @@ var shop = preload("res://Shop/Shop.tscn")
 var fightmode= true
 var enemys: Array
 
+
 func _ready():
 	enemys.push_back(ladybug)
 	var round_Timer = get_node("Player/RoundTimer")
 	round_Timer.connect("timeout",roundEnd)
+	if(get_node("GameMenu").visible):
+		get_tree().paused = true
 	
 func spawn_mob():
 	var randomMobInstace = get_randomMob()
@@ -26,7 +29,7 @@ func get_randomMob():
 
 
 func _on_timer_timeout():
-	%SpawnTimer.wait_time = randf()
+	%SpawnTimer.wait_time = randf_range(0.4,0.7)
 	if fightmode:
 		spawn_mob()
 
@@ -41,3 +44,13 @@ func roundEnd():
 	#Create Shopping overview
 	#Create Shopping items
 
+
+
+func _on_button_pressed():
+	get_tree().reload_current_scene()
+	
+
+
+func _on_start_game_button_pressed():
+	get_tree().paused = false
+	%GameMenu.visible = false

@@ -36,6 +36,6 @@ offset_bottom = -154.625
 size_flags_vertical = 0
 
 [node name="RoundTimer" type="Timer" parent="."]
-wait_time = 2.0
+wait_time = 45.0
 one_shot = true
 autostart = true

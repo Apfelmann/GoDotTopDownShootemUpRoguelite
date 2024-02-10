@@ -43,6 +43,8 @@ func createAllShopIcons():
 			add_child(shopItemToBuy)
 func _on_ShopItemButton_pressed(button:Button):
 	var name = button.get_meta("type")
+	var shop = get_node("/root/Main/Shop")
+	var main = get_node("/root/Main")
+	main.fightmode = true
+	shop.queue_free()
 	button.emit_signal("shopItemSold",name)
-	%ShopOverlay.queue_free() 
-	

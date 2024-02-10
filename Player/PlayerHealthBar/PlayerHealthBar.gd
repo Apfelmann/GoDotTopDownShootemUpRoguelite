@@ -35,6 +35,5 @@ func decrreaseHealth():
 	heartPosition -= 40
 	if(hearts.is_empty()):
 		var GameOverNode:CanvasLayer = get_node("/root/Main/GameOver")
-		#GameOverNode.visible = true
-		#get_tree().paused = true
-		get_tree().reload_current_scene()
+		GameOverNode.visible = true
+		get_tree().paused = true
